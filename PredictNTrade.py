@@ -18,7 +18,7 @@ import base64
 nltk.download('vader_lexicon')
 
 # Setting Eikon API key
-ek.set_app_key('c90273df8e474db5a81d024f25bb21f59ff471fe')
+ek.set_app_key('')
 
 # Function to fetch ESG and financial data using Eikon API
 def fetch_data(ticker, start_date, end_date):
